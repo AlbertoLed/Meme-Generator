@@ -1,0 +1,15 @@
+.header {
+    background: linear-gradient(
+        90deg,
+        var(--PURPLE),
+        var(--LIGHT-PURPLE)
+    );
+    display: flex;
+    justify-content: space-between;
+    color: var(--WHITE);
+    padding: 20px 30px;
+}
+.header__project-name {
+    font-size: 1.3em;
+    font-weight: 500;
+}

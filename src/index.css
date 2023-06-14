@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;500;700&display=swap');
+
+
+:root {
+  --PURPLE: #672280;
+  --LIGHT-PURPLE: #A626D3;
+  --WHITE: #FFFFFF;
+
+  font-family: 'Karla', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* background-color: #A626D3; */
+}
