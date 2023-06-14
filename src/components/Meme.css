@@ -1,0 +1,25 @@
+.form {
+    display: grid;
+    grid-template: 50px 50px / 1fr 1fr;
+    gap: 20px;
+    padding: 50px;
+}
+.form__text {
+padding: 0 10px;
+}
+.form__btn {
+    grid-area: 2 / 1 / 2 / span 2;
+    background: linear-gradient(
+        90deg, 
+        var(--PURPLE),
+        var(--LIGHT-PURPLE)
+    );
+    color: var(--WHITE);
+    border: none;
+    cursor: pointer;
+}
+
+.form__btn, .form__text {
+    border-radius: 7px;
+    font-size: 1.2em;
+}
