@@ -28,10 +28,38 @@ padding: 0 10px;
     font-size: 1.2em;
     font-family: 'Karla', sans-serif;
 }
-.meme-image {
+.meme {
     margin: 0 auto;
     width: 88%;
     max-width: 800px;
+    display: grid;
+    grid-template: 1fr / 1fr;
+    justify-items: center;
+}
+.meme__image {
+   width: 100%;
+   grid-area: 1 / 1 / 1 / 1;
+}
+.meme__text {
+   grid-area: 1 / 1 / 1 / 1;
+   font-weight: 700;
+   font-size: 2.5em;
+   color: var(--WHITE);
+   text-shadow: 
+        2px 2px 0 black,
+        -2px 2px 0 black,
+        -2px -2px 0 black,
+        2px -2px 0 black;
+        text-align: center;
+} 
+.meme__text--top {
+    align-self: flex-start;
+    margin-top: 8px;
+
+}
+.meme__text--bottom {
+    align-self: flex-end;
+    margin-bottom: 8px;
 }
 
 @media (min-width: 656px) {
